@@ -1,0 +1,77 @@
+import { Item } from './types';
+
+export const ANIMALS: Item[] = [
+  { id: 'animal-lion', name: 'Lion', emoji: '🦁' },
+  { id: 'animal-fox', name: 'Fox', emoji: '🦊' },
+  { id: 'animal-bear', name: 'Bear', emoji: '🐻' },
+  { id: 'animal-panda', name: 'Panda', emoji: '🐼' },
+  { id: 'animal-koala', name: 'Koala', emoji: '🐨' },
+  { id: 'animal-tiger', name: 'Tiger', emoji: '🐯' },
+  { id: 'animal-elephant', name: 'Elephant', emoji: '🐘' },
+  { id: 'animal-rabbit', name: 'Rabbit', emoji: '🐰' },
+  { id: 'animal-wolf', name: 'Wolf', emoji: '🐺' },
+  { id: 'animal-deer', name: 'Deer', emoji: '🦌' },
+  { id: 'animal-owl', name: 'Owl', emoji: '🦉' },
+  { id: 'animal-squirrel', name: 'Squirrel', emoji: '🐿️' },
+  { id: 'animal-eagle', name: 'Eagle', emoji: '🦅' },
+  { id: 'animal-dolphin', name: 'Dolphin', emoji: '🐬' },
+  { id: 'animal-butterfly', name: 'Butterfly', emoji: '🦋' },
+  { id: 'animal-bee', name: 'Bee', emoji: '🐝' },
+];
+
+export const PLACES: Item[] = [
+  { id: 'place-cottage', name: 'Cozy Cottage', emoji: '🏡' },
+  { id: 'place-castle', name: 'Grand Castle', emoji: '🏰' },
+  { id: 'place-forest', name: 'Enchanted Forest', emoji: '🌳' },
+  { id: 'place-cave', name: 'Crystal Cave', emoji: '💎' },
+  { id: 'place-beach', name: 'Sunny Beach', emoji: '🏖️' },
+  { id: 'place-woods', name: 'Whispering Woods', emoji: '🌲' },
+  { id: 'place-spaceship', name: 'Starry Spaceship', emoji: '🚀' },
+  { id: 'place-island', name: 'Floating Island', emoji: '☁️' },
+  { id: 'place-waterfall', name: 'Hidden Waterfall', emoji: '🏞️' },
+  { id: 'place-valley', name: 'Rainbow Valley', emoji: '🌈' },
+  { id: 'place-treehouse', name: 'Giant Treehouse', emoji: '🛖' },
+  { id: 'place-lake', name: 'Sparkling Lake', emoji: '🌊' },
+  { id: 'place-candy', name: 'Candy Kingdom', emoji: '🍭' },
+  { id: 'place-moon', name: 'Moon Base', emoji: '🌕' },
+  { id: 'place-lair', name: 'Dragon\'s Lair', emoji: '🔥' },
+  { id: 'place-underwater', name: 'Underwater City', emoji: '🐠' },
+];
+
+export const OBJECTS: Item[] = [
+  { id: 'object-book', name: 'Magic Book', emoji: '📖' },
+  { id: 'object-ball', name: 'Bouncy Ball', emoji: '⚽' },
+  { id: 'object-bike', name: 'Shiny Bicycle', emoji: '🚲' },
+  { id: 'object-game', name: 'Video Game', emoji: '🎮' },
+  { id: 'object-banana', name: 'Sweet Banana', emoji: '🍌' },
+  { id: 'object-telescope', name: 'Star Telescope', emoji: '🔭' },
+  { id: 'object-map', name: 'Treasure Map', emoji: '🗺️' },
+  { id: 'object-instrument', name: 'Musical Instrument', emoji: '🎸' },
+  { id: 'object-paintbrush', name: 'Rainbow Paintbrush', emoji: '🎨' },
+  { id: 'object-key', name: 'Mysterious Key', emoji: '🔑' },
+  { id: 'object-potion', name: 'Sparkling Potion', emoji: '🧪' },
+  { id: 'object-wand', name: 'Magic Wand', emoji: '✨' },
+  { id: 'object-hat', name: 'Wizard Hat', emoji: '🧙' },
+  { id: 'object-blanket', name: 'Warm Blanket', emoji: '🧣' },
+  { id: 'object-robot', name: 'Friendly Robot', emoji: '🤖' },
+  { id: 'object-cake', name: 'Delicious Cake', emoji: '🎂' },
+];
+
+export const FRUITS: Item[] = [
+  { id: 'fruit-apple', name: 'Apple', emoji: '🍎' },
+  { id: 'fruit-banana', name: 'Banana', emoji: '🍌' },
+  { id: 'fruit-grapes', name: 'Grapes', emoji: '🍇' },
+  { id: 'fruit-strawberry', name: 'Strawberry', emoji: '🍓' },
+  { id: 'fruit-orange', name: 'Orange', emoji: '🍊' },
+  { id: 'fruit-lemon', name: 'Lemon', emoji: '🍋' },
+  { id: 'fruit-pineapple', name: 'Pineapple', emoji: '🍍' },
+  { id: 'fruit-mango', name: 'Mango', emoji: '🥭' },
+  { id: 'fruit-watermelon', name: 'Watermelon', emoji: '🍉' },
+  { id: 'fruit-kiwi', name: 'Kiwi', emoji: '🥝' },
+  { id: 'fruit-peach', name: 'Peach', emoji: '🍑' },
+  { id: 'fruit-cherries', name: 'Cherries', emoji: '🍒' },
+  { id: 'fruit-pear', name: 'Pear', emoji: '🍐' },
+  { id: 'fruit-coconut', name: 'Coconut', emoji: '🥥' },
+  { id: 'fruit-avocado', name: 'Avocado', emoji: '🥑' },
+  { id: 'fruit-pomegranate', name: 'Pomegranate', emoji: '❤️' }, // Using heart as a placeholder if no direct pomegranate emoji
+];

@@ -1,0 +1,6 @@
+
+{
+  "name": "Interactive Story Creator",
+  "description": "A simple web application that allows users to create a short story by choosing animal characters and their living places from a selection.",
+  "requestFramePermissions": []
+}
